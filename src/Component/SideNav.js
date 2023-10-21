@@ -4,10 +4,7 @@ import logo from "../Images/logo.webp";
 import { Details } from "../Constants/Constants";
 
 
-const Image = styled.img`
-    width: 51px;
-    height: 37px;
-`;
+
 
 const NavTitle = styled.h3`
 display: none;
@@ -22,6 +19,7 @@ font-size: 18px;
 `;
 
 const NavItem = styled.div`
+cursor: pointer;
 color: #8c8d8f;
 display: flex;
 flex-direction: row;
@@ -94,7 +92,11 @@ const NavBottom = styled.div`
     align-items: center;
     
  `;
-
+ const Image = styled.img`
+  width: 51px;
+  height: 37px;
+  cursor: pointer;
+ `;
 
 
 
@@ -110,6 +112,7 @@ const SubscribeBtn = styled.button`
      display: flex;
      justify-content: center;
      align-items: center;
+     cursor: pointer;
      
 
 `;
